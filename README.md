@@ -75,23 +75,23 @@ Let's see our interpolations:
 ![cop_fitting_45](https://github.com/l33tn00b/la12stu/assets/28904067/47404212-87fe-41d0-b05f-26d4b91b103f)
 ![cop_fitting_55](https://github.com/l33tn00b/la12stu/assets/28904067/63ca49fb-130a-48ad-8692-02aace6f94a3)
 
-%%% looking at the interpolation curves makes me think "let's take 15th
-%%% order interpolation".
-%%% mainly because of the behaviour of the 55°C flow temperature curves..    
-%%% but then again, how relevant is 55°C flow temperature? The only time we
-%%% reach that level of temperature is when water heating kicks in.
-%%% checked against lowest recorded temperature last year (2022) (~-15°C): 
-%%% gave around 40°C flow temperature. 
-%%% and this is the point where heating capacity will become
-%%% insufficient and additional purely electrical heating (i.e. resistive)
-%%% will come online. So higher flow temps won't even help in that case.
-%%% we'll take 15th order anyway (not much of an additional effort in terms
-%%% of calculations) because it also gives a nicer fit than 11th order for
-%%% 45 degrees (and we're somewhere in between 45 and 35 degrees worst
-%%% case).
+%%% looking at the interpolation curves makes me think "let's take 15th  
+%%% order interpolation".  
+%%% mainly because of the behaviour of the 55°C flow temperature curves..      
+%%% but then again, how relevant is 55°C flow temperature? The only time we  
+%%% reach that level of temperature is when water heating kicks in.  
+%%% checked against lowest recorded temperature last year (2022) (~-15°C):   
+%%% gave around 40°C flow temperature.   
+%%% and this is the point where heating capacity will become  
+%%% insufficient and additional purely electrical heating (i.e. resistive)  
+%%% will come online. So higher flow temps won't even help in that case.  
+%%% we'll take 15th order anyway (not much of an additional effort in terms  
+%%% of calculations) because it also gives a nicer fit than 11th order for  
+%%% 45 degrees (and we're somewhere in between 45 and 35 degrees worst  
+%%% case).  
 
-%%% thinking again... why have a polynomial interpolation at all? 
-%%% we might as well just do a linear interpolation for anything in betwwen
-%%% our data points :P 
-%%% we'd thus nail the data points and not have to put in additional
-%%% effort. over-engineering...
+%%% thinking again... why have a polynomial interpolation at all?   
+%%% we might as well just do a linear interpolation for anything in betwwen  
+%%% our data points :P   
+%%% we'd thus nail the data points and not have to put in additional  
+%%% effort. over-engineering...  
