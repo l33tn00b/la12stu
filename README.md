@@ -4,10 +4,15 @@ Dimplex
 # Why, yes why?
 Oh, Dimplex.  Please refrain from building heat pump control systems.
 This is what happened today (Jan 2024):
-![grafik](https://github.com/l33tn00b/la12stu/assets/28904067/8f73efcd-cb47-49fb-8e16-c28017873a2a)
+![grafik](https://github.com/l33tn00b/la12stu/assets/28904067/8f73efcd-cb47-49fb-8e16-c28017873a2a)  
+
 Came home to a cold house (well, much cooler than desired). At approx. 5am the heat pump controller had suddenly decided to up the temperature to more than 40 degrees celsius (bottom chart, blue line). Why? No idea.  Approx. one hour later (at 6 am) it realized the futility of that idea (?) (impossible to reach these temperatures at around zero degrees celsius exteror temperature). Instead of just doing the best it could (running all the time) it threw the towel (red line, temperature slowly decreasing). Shortly after 1pm it got back on its feet, running all afternoon to get back to a normal temperature (red line, slowly increasing temperature). F*ck Dimplex. I hadn't changed any settings. Instead of charging people for "features", could you please just deliver a working product? All that at a price point of more than 1300€. F*ck Dimplex.
 
-Just happy to have all the tracking installed to be able to prove it. 
+Just happy to have all the tracking installed to be able to prove and look into it (wasn't the first time). How on earth is a normal customer supposed handle this? Not even the authorized installer would be able to tell me why it suddenly was so cold..
+
+By the way, this is the corresponding exterior temperature: 
+![grafik](https://github.com/l33tn00b/la12stu/assets/28904067/219f2e02-98f6-4d92-89dd-50b11398cc20)
+
 
 # COP Diagram
 ![cop_la12stu](https://github.com/l33tn00b/la12stu/assets/28904067/785d30d1-600f-4565-9e10-ab4ed212f557)
