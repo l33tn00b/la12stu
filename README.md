@@ -13,6 +13,7 @@ Just happy to have all the tracking installed to be able to prove and look into 
 By the way, this is the corresponding exterior temperature: 
 ![grafik](https://github.com/l33tn00b/la12stu/assets/28904067/219f2e02-98f6-4d92-89dd-50b11398cc20)
 
+Another point: I used to have a Siemens Controller for my old heating system. It had a variable for building mass; so it would take into account the delay incurred when heating. Oh, and it cost a fraction of that f*cking* Dimplex thing. Now, exterior temperatures are rising rapidly after a prolonged cold spell. Guess what: the house is (because of its mass) still cold. All the while, the controller is reducing the amount of energy provided. Crap stuff.
 
 # COP Diagram
 ![cop_la12stu](https://github.com/l33tn00b/la12stu/assets/28904067/785d30d1-600f-4565-9e10-ab4ed212f557)
